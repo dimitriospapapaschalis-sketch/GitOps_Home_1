@@ -13,8 +13,8 @@ controls: # This cannot be set here and in no-team.yml
 org_settings:
   server_settings:
     server_url: $FLEET_URL
-  org_info: My Home Org
-    org_name: Fleet
+  org_info:
+    org_name: My Home Org
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
